@@ -1,0 +1,16 @@
+name: Build release bundle
+on:
+  release:
+    types: [published]
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python build_release.py "${{ github.event.release.tag_name }}"
+      - run: tar -czf amrrulesdb.tar.gz -C build/rules .
+      - run: gh release upload "${{ github.event.release.tag_name }}" amrrulesdb.tar.gz
+        env:
+          GH_TOKEN: ${{ github.token }}
