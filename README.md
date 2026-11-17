@@ -1,5 +1,5 @@
 # AMRrulesDB
-Database for [AMRrules](https://github.com/AMRverse/AMRrules), curated by [ESGEM-AMR](https://esgem-amr.amrrules.org/)
+Database for [AMRrules](https://www.amrrules.org), curated by [ESGEM-AMR](https://esgem-amr.amrrules.org/)
 
 ## Versioning
 
