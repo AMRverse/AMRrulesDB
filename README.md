@@ -5,11 +5,13 @@ Database for [AMRrules](https://github.com/AMRverse/AMRrules), curated by [ESGEM
 
 Rules are constantly updated by ESGEM-AMR. 
 
-Versioning is done in the format of x.y.z.
+Versioning is done in the format of ``x.y.z``
 
-x = Changes to rule specification formation (add/remove fields)
-y = Changes to rules or interpretations (add/remove rules; change interpretation of an existing rule, either clinical category [e.g. from I to S] or phenotype category [e.g. from WT to NWT])
-z = Changes that do not change interpretations (e.g. changes to evidence codes, evidence grades, breakpoints, curation notes, addition of accessions or mechanism; note changes to accessions or mutations or drug names do result in different interpretations so are categorised as 'y' above)
+``x`` = Changes to rule specification formation (add/remove fields)
+
+``y`` = Changes to rules or interpretations (add/remove rules OR change interpretation of an existing rule, either clinical category [e.g. from I to S] or phenotype category [e.g. from WT to NWT])
+
+``z`` = Changes that do not change interpretations (e.g. changes to evidence codes, evidence grades, breakpoints, curation notes, addition of accessions or mechanism). Note changes to accessions or mutations or drug names do result in different interpretations so are categorised as ``y`` above.
 
 Descriptions of changes are provided in release notes for every new version.
 
